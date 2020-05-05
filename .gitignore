@@ -1,0 +1,10 @@
+### https://www.gitignore.io/ ###
+
+# Caches
+**/.ipynb_checkpoints/*
+**/__pycache__/*
+*.pyc
+notebooks/cache
+
+# Other
+.DS_Store
