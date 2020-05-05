@@ -1,7 +1,15 @@
 # Python Productivity Power-Ups
 
 ## Code
-Everything is in `./notebooks`.
+You can find the notebook from the presentation here: [Python Productivity Power-Ups](./notebooks/Python%20Productivity%20Power-Ups.ipynb)
+
+The packages featured were:
+1. tqdm: [https://pypi.org/project/tqdm/](https://pypi.org/project/tqdm/)
+2. black: [https://pypi.org/project/black/](https://pypi.org/project/black/)
+3. nb-black: [https://pypi.org/project/nb-black/](https://pypi.org/project/nb-black/)
+4. isort: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
+5. logaru: [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
+6. joblib: [https://joblib.readthedocs.io/en/latest/](https://joblib.readthedocs.io/en/latest/)
 
 ## Load the environment using pip-tools
 ```
