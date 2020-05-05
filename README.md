@@ -1,5 +1,7 @@
 # Python Productivity Power-Ups
 
+This was created for the PyDataUK May Talks which you can watch in YouTube here: [https://www.youtube.com/watch?v=C1hqHk1SfrA](https://www.youtube.com/watch?v=C1hqHk1SfrA). If you would like to skip to this talk [please use this link](https://youtu.be/C1hqHk1SfrA?t=1851).
+
 ## Code
 You can find the notebook from the presentation here: [Python Productivity Power-Ups](./notebooks/Python%20Productivity%20Power-Ups.ipynb)
 
