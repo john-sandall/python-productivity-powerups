@@ -1,6 +1,9 @@
 # Python Productivity Power-Ups
 
-# Tips & Tricks
+## Code
+Everything is in `./notebooks`.
+
+## Load the environment using pip-tools
 ```
 # Activate environment
 workon python-productivity-powerups
@@ -17,7 +20,7 @@ pip-compile requirements.in
 pip-sync
 ```
 
-# Setup
+## Setup
 ```
 # Install virtualenv
 pip install virtualenv
