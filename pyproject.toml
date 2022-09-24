@@ -25,6 +25,7 @@ poetryup = "^0.8.2"
 seaborn = "^0.12.0"
 tqdm = "^4.64.1"
 treon = "^0.1.4"
+pandarallel = "^1.6.3"
 
 [tool.poetry.dev-dependencies]
 # Everything below here is alphabetically sorted
