@@ -1,6 +1,9 @@
 # Python Productivity Power-Ups
 
+[![CI](https://github.com/john-sandall/python-productivity-powerups/actions/workflows/main.yaml/badge.svg)](https://github.com/john-sandall/python-productivity-powerups/actions/workflows/main.yaml)
+
 This was created for the PyDataUK May Talks which you can watch in YouTube here: [https://www.youtube.com/watch?v=C1hqHk1SfrA](https://www.youtube.com/watch?v=C1hqHk1SfrA). If you would like to skip to this talk [please use this link](https://youtu.be/C1hqHk1SfrA?t=1851).
+
 
 ## Code
 You can find the notebook from the presentation here: [Python Productivity Power-Ups](./notebooks/Python%20Productivity%20Power-Ups.ipynb)
@@ -13,54 +16,28 @@ The packages featured were:
 5. logaru: [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 6. joblib: [https://joblib.readthedocs.io/en/latest/](https://joblib.readthedocs.io/en/latest/)
 
-## Load the environment using pip-tools
-```
-# Activate environment
-workon python-productivity-powerups
 
-# Update packages from requirements.txt
-pip-sync
- 
-# Install new package & update requirements.txt
-pip install new-package-name
-pip freeze  # to check version number
+## Project cheatsheet
 
-# copy paste package & version to requirements.in
-pip-compile requirements.in
-pip-sync
-```
-
-## Setup
-```
-# Install virtualenv
-pip install virtualenv
+  - **pre-commit:** `pre-commit run --all-files`
+  - **pytest:** `pytest` or `pytest -s`
+  - **coverage:** `coverage run -m pytest` or `coverage html`
+  - **poetry sync:** `poetry install --no-root --remove-untracked`
+  - **updating requirements:** see [docs/updating_requirements.md](docs/updating_requirements.md)
+- **create towncrier entry:** `towncrier create 123.added --edit`
 
 
-# Install virtualenvwrapper (http://virtualenvwrapper.readthedocs.org/en/latest/index.html)
-pip install virtualenvwrapper
-# Tell shell to source virtualenvwrapper.sh and where to put the virtualenvs by adding following to .zshrc
-zshconfig
-#    # "Tell shell to source virtualenvwrapper.sh and where to put the virtualenvs"
-#    export WORKON_HOME=$HOME/.virtualenvs
-#    export PROJECT_HOME=$HOME/code
-#    source /usr/local/bin/virtualenvwrapper.sh
-source ~/.zshrc
-source /usr/local/bin/virtualenvwrapper.sh
-# Now let's make a virtualenv
-mkvirtualenv venv
-workon venv
-# Commands `workon venv`, `deactivate`, `lsvirtualenv` and `rmvirtualenv` are useful
-# WARNING: When you brew install formulae that provide Python bindings, you should not be in an active virtual environment.
-# (https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md)
-deactivate
+## Initial project setup
 
-
-# Create virtualenv & install packasges
-mkvirtualenv numberphile
-pip install python-productivity-powerups
-pip-sync
-python -m ipykernel install --user --name python-productivity-powerups --display-name "Python (python-productivity-powerups)"
-```
+1. See [docs/getting_started.md](docs/getting_started.md) or [docs/quickstart.md](docs/quickstart.md)
+   for how to get up & running.
+2. Check [docs/project_specific_setup.md](docs/project_specific_setup.md) for project specific setup.
+3. See [docs/using_poetry.md](docs/using_poetry.md) for how to update Python requirements using
+   [Poetry](https://python-poetry.org/).
+4. See [docs/detect_secrets.md](docs/detect_secrets.md) for more on creating a `.secrets.baseline`
+   file using [detect-secrets](https://github.com/Yelp/detect-secrets).
+5. See [docs/using_towncrier.md](docs/using_towncrier.md) for how to update the `CHANGELOG.md`
+   using [towncrier](https://github.com/twisted/towncrier).
 
 ---
 
