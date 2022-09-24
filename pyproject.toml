@@ -81,7 +81,7 @@ max-statements = 89
 max-args = 22
 max-branches = 17
 # good-names = []
-# disable = []
+disable = ["missing-module-docstring"]
 logging-format-style = "new"
 
 ##############

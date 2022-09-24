@@ -23,9 +23,6 @@
     "python.linting.pylintArgs": [],
     "python.linting.pylintUseMinimalCheckers": false,
 
-    // python - isort
-    "python.sortImports.args": ["--recursive"],
-
     // Python files only
     "[python]": {
         // isort on save
