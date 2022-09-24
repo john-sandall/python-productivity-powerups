@@ -14,7 +14,7 @@
     "python.pythonPath": "${env:VIRTUAL_ENV}",
 
     // python - linting & static analysis
-    "python.analysis.extraPaths": ["python_productivity_power_ups"],
+    "python.analysis.extraPaths": ["notebooks"],
     "python.analysis.typeCheckingMode": "basic",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,

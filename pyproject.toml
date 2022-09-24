@@ -8,11 +8,7 @@ description = "Packages To Power-Up Your Python Productivity"
 authors = ["John Sandall <2884159+john-sandall@users.noreply.github.com>"]
 license = "UNLICENSED"
 classifiers = ["Private :: Do Not Upload"]
-packages = [
-  { include = "python_productivity_power_ups", from = "python_productivity_power_ups" },
-  # Add more packages here, e.g.
-  # { include = "module_name", from = "python_productivity_power_ups" },
-]
+packages = [{ include = "notebooks", from = "notebooks" }]
 
 [tool.poetry.dependencies]
 python = "^3.10.6"
@@ -63,12 +59,12 @@ target-version = ["py310"]
 profile = "black"
 line_length = 100
 default_section = "THIRDPARTY"
-known_first_party = ["python_productivity_power_ups"]
+known_first_party = ["notebooks"]
 sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
 # add_imports = "from __future__ import annotations"
 
 [tool.pylint.MASTER]
-ignore-paths = [".git"]
+ignore-paths = [".git", "notebooks/isort_example.py"]
 load-plugins = []
 
 [tool.pylint."MESSAGES CONTROL"]
@@ -88,7 +84,7 @@ logging-format-style = "new"
 # 📣 Towncrier
 ##############
 [tool.towncrier]
-package = "python_productivity_power_ups"
+package = "notebooks"
 package_dir = "."
 filename = "CHANGELOG.md"
 directory = ".changelog/"

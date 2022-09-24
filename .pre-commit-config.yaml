@@ -125,7 +125,7 @@ repos:
     hooks:
       - id: pylint
         name: pylint
-        entry: pylint python_productivity_power_ups tests
+        entry: pylint notebooks
         # entry: bash -c 'pylint ./path/package1/; pylint ./path/package2/'
         language: system
         types: [python]
