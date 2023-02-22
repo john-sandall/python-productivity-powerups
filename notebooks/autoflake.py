@@ -1,5 +1,7 @@
 """Initial state.
 
+autoflake --in-place --remove-unused-variables notebooks/autoflake.py
+
 import numpy as np
 import pandas as pd
 

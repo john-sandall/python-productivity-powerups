@@ -25,6 +25,7 @@ seaborn = "^0.12.2"
 tqdm = "^4.64.1"
 treon = "^0.1.4"
 pandarallel = "^1.6.4"
+pyupgrade = "^3.3.1"
 
 [tool.poetry.dev-dependencies]
 # Everything below here is alphabetically sorted
