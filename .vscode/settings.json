@@ -16,7 +16,7 @@
     // python - linting & static analysis
     "python.analysis.extraPaths": ["notebooks"],
     "python.analysis.typeCheckingMode": "basic",
-    "python.linting.enabled": false,
+    "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [],
     "python.linting.pylintEnabled": true,
