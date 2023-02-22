@@ -8,14 +8,15 @@ This was created for the PyDataUK May Talks which you can watch in YouTube here:
 ## Code
 You can find the notebook from the presentation here: [Python Productivity Power-Ups](./notebooks/Python%20Productivity%20Power-Ups.ipynb)
 
-The packages featured were:
-1. tqdm: [https://pypi.org/project/tqdm/](https://pypi.org/project/tqdm/)
-2. black: [https://pypi.org/project/black/](https://pypi.org/project/black/)
-3. nb-black: [https://pypi.org/project/nb-black/](https://pypi.org/project/nb-black/)
-4. isort: [https://github.com/timothycrosley/isort](https://github.com/timothycrosley/isort)
-5. logaru: [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
-6. joblib: [https://joblib.readthedocs.io/en/latest/](https://joblib.readthedocs.io/en/latest/)
-
+The tools featured were:
+1. tqdm: [https://pypi.org/project/tqdm/]
+2. joblib: [https://joblib.readthedocs.io/en/latest/]
+3. black: [https://pypi.org/project/black/]
+4. jupyter-black: [https://pypi.org/project/jupyter-black/]
+5. isort: [https://pycqa.github.io/isort/]
+6. fzf: [https://github.com/junegunn/fzf]
+7. pre-commit: [https://pre-commit.com/]
+8. coefficient-cookiecutter: [https://github.com/CoefficientSystems/coefficient-cookiecutter]
 
 ## Project cheatsheet
 
