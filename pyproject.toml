@@ -20,12 +20,12 @@ joblib = "^1.2.0"
 jupyter-black = "^0.3.3"
 jupyterlab = "^3.6.1"
 loguru = "^0.6.0"
+pandarallel = "^1.6.4"
 pandas = "^1.5.3"
 seaborn = "^0.12.2"
 tqdm = "^4.64.1"
 treon = "^0.1.4"
-pandarallel = "^1.6.4"
-pyupgrade = "^3.3.1"
+bandit = "^1.7.4"
 
 [tool.poetry.dev-dependencies]
 # Everything below here is alphabetically sorted
@@ -44,6 +44,7 @@ pip-audit = "^2.4.14"
 pre-commit = "^2.21.0"
 pylint = "^2.16.2"
 pytest = "^7.2.1"
+pyupgrade = "^3.3.1"
 towncrier = "^21.9.0"
 
 [build-system]
