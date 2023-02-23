@@ -41,7 +41,7 @@ repos:
           - --remove-duplicate-keys
           - --remove-unused-variables
   - repo: https://github.com/PyCQA/flake8
-    rev: 6.0.0
+    rev: 5.0.4
     hooks:
       - &flake8
         id: flake8
